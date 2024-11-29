@@ -1,0 +1,51 @@
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+  <p-toolbar>
+    <div class="p-toolbar-group-start">
+      <row>
+        <input id="name" type="text" pInputText formControlName="name" />
+        <small
+          *ngIf="
+            productForm.controls['name'].invalid &&
+            productForm.controls['name'].touched
+          "
+          class="p-error"
+        >
+          Product name is required.
+        </small>
+
+        <p-multiSelect
+          appendTo="body"
+          [(ngModel)]="filteredChemicals"
+          [options]="chemicals"
+          [showToggleAll]="true"
+          optionLabel="name"
+          [filter]="true"
+          display="chip"
+          placeholder="Select chemicals"
+          formControlName="chemicals"
+          [showClear]="true"
+          [style]="{ 'max-width': '20rem' }"
+        ></p-multiSelect>
+      </row>
+    </div>
+
+    <div class="p-toolbar-group-end">
+      <row>
+        <button
+          type="button"
+          pButton
+          label="Cancel"
+          icon="pi pi-times"
+          (click)="onCancel()"
+        ></button>
+        <button
+          type="submit"
+          pButton
+          label="Save"
+          icon="pi pi-check"
+          [disabled]="productForm.invalid"
+        ></button>
+      </row>
+    </div>
+  </p-toolbar>
+</form>

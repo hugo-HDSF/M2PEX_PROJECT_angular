@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "id": "09aa",
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "the Ordinary Niacinamide 10% + Zinc 1%",
+      "chemicals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ceraVe Hydrating Cleanser",
+      "chemicals": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": 3,
+      "name": "neutrogena Hydro Boost Water Gel",
+      "chemicals": [
+        9,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cetaphil Gentle Skin Cleanser",
+      "chemicals": [
+        9,
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  ],
+  "chemicals": [
+    {
+      "id": 1,
+      "name": "Aqua (Water)",
+      "severity": "low",
+      "description": "Aqua or Water is the most common ingredient in cosmetics. It is used as a solvent for many ingredients, such as vitamins, minerals, amino acids, and peptides. It is also used to dissolve other ingredients in the formula. Water is essential for the proper functioning of the skin and helps to maintain the skin's natural moisture balance."
+    },
+    {
+      "id": 2,
+      "name": "Niacinamide",
+      "severity": "low",
+      "description": "Niacinamide is a form of vitamin B3 that is used in skincare products for its anti-inflammatory and antioxidant properties. It helps to reduce redness, irritation, and inflammation in the skin, making it ideal for sensitive and acne-prone skin. Niacinamide also helps to improve the skin's barrier function, which can help to prevent moisture loss and protect the skin from environmental damage."
+    },
+    {
+      "id": 3,
+      "name": "Pentylene Glycol",
+      "severity": "low",
+      "description": "Pentylene Glycol is a synthetic humectant that is used in skincare products to help attract and retain moisture in the skin. It is also used as a preservative to prevent the growth of bacteria and mold in the formula. Pentylene Glycol is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 4,
+      "name": "Zinc PCA",
+      "severity": "low",
+      "description": "Zinc PCA is a compound of zinc and pyrrolidone carboxylic acid that is used in skincare products for its anti-inflammatory and antimicrobial properties. It helps to reduce redness and irritation in the skin, making it ideal for sensitive and acne-prone skin. Zinc PCA also helps to regulate sebum production, which can help to prevent breakouts and keep the skin clear and healthy."
+    },
+    {
+      "id": 5,
+      "name": "Dimethyl Isosorbide",
+      "severity": "medium",
+      "description": "Dimethyl Isosorbide is a solvent that is used in skincare products to help dissolve other ingredients in the formula. It is also used to enhance the penetration of active ingredients into the skin, making them more effective. Dimethyl Isosorbide is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 6,
+      "name": "Tamarindus Indica Seed Gum",
+      "severity": "low",
+      "description": "Tamarindus Indica Seed Gum is a natural polysaccharide that is used in skincare products for its hydrating and soothing properties. It helps to attract and retain moisture in the skin, making it ideal for dry and dehydrated skin. Tamarindus Indica Seed Gum also helps to reduce redness and irritation in the skin, making it suitable for sensitive and acne-prone skin."
+    },
+    {
+      "id": 7,
+      "name": "Xanthan Gum",
+      "severity": "low",
+      "description": "Xanthan Gum is a natural polysaccharide that is used in skincare products as a thickening agent and stabilizer. It helps to give the product a smooth and creamy texture and prevents the ingredients from separating. Xanthan Gum is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 8,
+      "name": "Isoceteth-20",
+      "severity": "medium",
+      "description": "Isoceteth-20 is a synthetic emulsifier that is used in skincare products to help mix together ingredients that do not normally combine well, such as oil and water. It helps to give the product a smooth and creamy texture and prevents the ingredients from separating. Isoceteth-20 is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 9,
+      "name": "Ethoxydiglycol",
+      "severity": "medium",
+      "description": "Ethoxydiglycol is a synthetic solvent that is used in skincare products to help dissolve other ingredients in the formula. It is also used to enhance the penetration of active ingredients into the skin, making them more effective. Ethoxydiglycol is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 10,
+      "name": "Phenoxyethanol",
+      "severity": "medium",
+      "description": "Phenoxyethanol is a synthetic preservative that is used in skincare products to prevent the growth of bacteria and mold in the formula. It is also used to extend the shelf life of the product and prevent it from spoiling. Phenoxyethanol is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 11,
+      "name": "Chlorphenesin",
+      "severity": "medium",
+      "description": "Chlorphenesin is a synthetic preservative that is used in skincare products to prevent the growth of bacteria and mold in the formula. It is also used to extend the shelf life of the product and prevent it from spoiling. Chlorphenesin is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 12,
+      "name": "Ceramides",
+      "severity": "low",
+      "description": "Ceramides are lipids that are naturally found in the skin and help to maintain the skin's barrier function. They help to prevent moisture loss and protect the skin from environmental damage. Ceramides are essential for healthy and hydrated skin and are often used in skincare products to help repair and strengthen the skin's barrier."
+    },
+    {
+      "id": 13,
+      "name": "Hyaluronic Acid",
+      "severity": "low",
+      "description": "Hyaluronic Acid is a natural humectant that is used in skincare products to help attract and retain moisture in the skin. It is also used to plump and hydrate the skin, making it look smoother and more youthful. Hyaluronic Acid is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 14,
+      "name": "Caprylic/Capric Triglyceride",
+      "severity": "low",
+      "description": "Caprylic/Capric Triglyceride is a synthetic emollient that is used in skincare products to help soften and smooth the skin. It is also used to help other ingredients penetrate the skin more effectively. Caprylic/Capric Triglyceride is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 15,
+      "name": "Cetearyl Alcohol",
+      "severity": "low",
+      "description": "Cetearyl Alcohol is a mixture of cetyl and stearyl alcohols that is used in skincare products as an emollient and emulsifier. It helps to soften and smooth the skin and prevent the ingredients from separating. Cetearyl Alcohol is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 16,
+      "name": "Ceteareth-20",
+      "severity": "medium",
+      "description": "Ceteareth-20 is a synthetic emulsifier that is used in skincare products to help mix together ingredients that do not normally combine well, such as oil and water. It helps to give the product a smooth and creamy texture and prevents the ingredients from separating. Ceteareth-20 is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 17,
+      "name": "Sodium Hyaluronate",
+      "severity": "low",
+      "description": "Sodium Hyaluronate is a salt of Hyaluronic Acid that is used in skincare products to help attract and retain moisture in the skin. It is also used to plump and hydrate the skin, making it look smoother and more youthful. Sodium Hyaluronate is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 18,
+      "name": "Glycerin",
+      "severity": "low",
+      "description": "Glycerin is a natural humectant that is used in skincare products to help attract and retain moisture in the skin. It is also used to soften and smooth the skin, making it look healthier and more radiant. Glycerin is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 19,
+      "name": "Sodium Lauroyl Lactylate",
+      "severity": "medium",
+      "description": "Sodium Lauroyl Lactylate is a synthetic emulsifier that is used in skincare products to help mix together ingredients that do not normally combine well, such as oil and water. It helps to give the product a smooth and creamy texture and prevents the ingredients from separating. Sodium Lauroyl Lactylate is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 20,
+      "name": "Dimethicone",
+      "severity": "medium",
+      "description": "Dimethicone is a silicone-based polymer that is used in skincare products to help soften and smooth the skin. It forms a protective barrier on the skin that helps to prevent moisture loss and protect the skin from environmental damage. Dimethicone is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 21,
+      "name": "Synthetic Beeswax",
+      "severity": "low",
+      "description": "Synthetic Beeswax is a synthetic wax that is used in skincare products to help soften and smooth the skin. It is also used to help other ingredients penetrate the skin more effectively. Synthetic Beeswax is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 22,
+      "name": "Carbomer",
+      "severity": "low",
+      "description": "Carbomer is a synthetic polymer that is used in skincare products as a thickening agent and stabilizer. It helps to give the product a smooth and creamy texture and prevents the ingredients from separating. Carbomer is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 23,
+      "name": "Cetearyl Olivate",
+      "severity": "medium",
+      "description": "Cetearyl Olivate is a mixture of cetearyl alcohol and sorbitan olivate that is used in skincare products as an emulsifier and emollient. It helps to soften and smooth the skin and prevent the ingredients from separating. Cetearyl Olivate is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 24,
+      "name": "Sorbitan Olivate",
+      "severity": "medium",
+      "description": "Sorbitan Olivate is a mixture of sorbitan esters and fatty acids that is used in skincare products as an emulsifier and emollient. It helps to soften and smooth the skin and prevent the ingredients from separating. Sorbitan Olivate is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 25,
+      "name": "Polyacrylamide",
+      "severity": "high",
+      "description": "Polyacrylamide is a synthetic polymer that is used in skincare products as a thickening agent and stabilizer. It helps to give the product a smooth and creamy texture and prevents the ingredients from separating. Polyacrylamide is non-irritating and non-sensitizing, making it suitable for all skin types but can be contaminated with acrylamide, a known carcinogen."
+    },
+    {
+      "id": 26,
+      "name": "C13-14 Isoparaffin",
+      "severity": "high",
+      "description": "C13-14 Isoparaffin is a synthetic solvent that is used in skincare products to help dissolve other ingredients in the formula. It is also used to enhance the penetration of active ingredients into the skin, making them more effective. C13-14 Isoparaffin is non-irritating and non-sensitizing, making it suitable for all skin types but can be contaminated with polycyclic aromatic hydrocarbons, which are known carcinogens."
+    },
+    {
+      "id": 27,
+      "name": "Cetyl Alcohol",
+      "severity": "low",
+      "description": "Cetyl Alcohol is a fatty alcohol that is used in skincare products as an emollient and emulsifier. It helps to soften and smooth the skin and prevent the ingredients from separating. Cetyl Alcohol is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 28,
+      "name": "Stearyl Alcohol",
+      "severity": "low",
+      "description": "Stearyl Alcohol is a fatty alcohol that is used in skincare products as an emollient and emulsifier. It helps to soften and smooth the skin and prevent the ingredients from separating. Stearyl Alcohol is non-irritating and non-sensitizing, making it suitable for all skin types."
+    },
+    {
+      "id": 29,
+      "name": "Sodium Lauryl Sulfate",
+      "severity": "high",
+      "description": "Sodium Lauryl Sulfate is a synthetic surfactant that is used in skincare products to help cleanse the skin. It helps to remove dirt, oil, and makeup from the skin, making it look clean and refreshed. Sodium Lauryl Sulfate is non-irritating and non-sensitizing, making it suitable for all skin types but can be irritating to sensitive skin."
+    },
+    {
+      "id": 30,
+      "name": "Fragrance",
+      "severity": "high",
+      "description": "Fragrance is a mixture of chemicals that is used in skincare products to give them a pleasant scent. It is also used to mask the smell of other ingredients in the formula. Fragrance is a common cause of skin irritation and allergic reactions, making it unsuitable for sensitive and allergy-prone skin."
+    }
+  ]
+}

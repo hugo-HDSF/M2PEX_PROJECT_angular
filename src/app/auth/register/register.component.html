@@ -1,0 +1,40 @@
+<section>
+  <column>
+    <form [formGroup]="registerForm" (ngSubmit)="addUser()">
+      <column>
+        <h2>Inscription</h2>
+        <input
+          pInputText
+          type="text"
+          placeholder="Username"
+          formControlName="username"
+        />
+        <input
+          pInputText
+          type="password"
+          placeholder="Password"
+          formControlName="password"
+        />
+        <input
+          pInputText
+          type="password"
+          placeholder="Confirm password"
+          formControlName="confirmPassword"
+        />
+        <p
+          *ngIf="
+            registerForm.invalid && (registerForm.touched || registerForm.dirty)
+          "
+        >
+          {{ getErrorLabel }}
+        </p>
+        <button
+          pButton
+          type="submit"
+          [disabled]="registerForm.invalid"
+          label="Sign up"
+        ></button>
+      </column>
+    </form>
+  </column>
+</section>

@@ -1,0 +1,47 @@
+<form [formGroup]="chemicalForm" (ngSubmit)="onSubmit()">
+  <p-toolbar>
+    <div class="p-toolbar-group-start">
+      <row>
+        <input id="name" type="text" pInputText formControlName="name"/>
+        <small
+          *ngIf="
+            chemicalForm.controls['name'].invalid &&
+            chemicalForm.controls['name'].touched
+          "
+          class="p-error"
+        >
+          Chemical name is required.
+        </small>
+      </row>
+    </div>
+
+    <div class="p-toolbar-group-end">
+      <row>
+        <p-dropdown
+          [options]="severityOptions"
+          formControlName="severity"
+          placeholder="Select severity"
+        ></p-dropdown>
+      </row>
+    </div>
+
+    <p-footer>
+      <row>
+        <button
+          type="button"
+          pButton
+          label="Cancel"
+          icon="pi pi-times"
+          (click)="onCancel()"
+        ></button>
+        <button
+          type="submit"
+          pButton
+          label="Save"
+          icon="pi pi-check"
+          [disabled]="chemicalForm.invalid"
+        ></button>
+      </row>
+    </p-footer>
+  </p-toolbar>
+</form>

@@ -1,0 +1,37 @@
+<p-menubar [model]="items">
+  <ng-template pTemplate="end">
+    <row>
+      <p-button
+        *ngIf="isUserConnected"
+        [outlined]="true"
+        label="{{ getUsername }}"
+        icon="pi pi-user"
+      >
+      </p-button>
+      <button
+        *ngIf="!isUserConnected"
+        pButton
+        type="button"
+        label="Login"
+        routerLink="/login"
+        icon="pi pi-sign-in"
+      ></button>
+      <button
+        *ngIf="!isUserConnected"
+        pButton
+        type="button"
+        label="Register"
+        routerLink="/register"
+        icon="pi pi-user-plus"
+      ></button>
+      <button
+        *ngIf="isUserConnected"
+        pButton
+        type="button"
+        label="Logout"
+        icon="pi pi-sign-out"
+        (click)="logout()"
+      ></button>
+    </row>
+  </ng-template>
+</p-menubar>

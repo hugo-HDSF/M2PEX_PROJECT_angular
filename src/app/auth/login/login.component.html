@@ -1,0 +1,30 @@
+<section>
+  <column>
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <column>
+        <h2>Connexion</h2>
+        <column>
+          <input
+            pInputText
+            type="text"
+            placeholder="Username"
+            formControlName="username"
+          />
+          <input
+            pInputText
+            type="password"
+            placeholder="Password"
+            formControlName="password"
+          />
+        </column>
+        <button
+          pButton
+          type="submit"
+          [disabled]="loginForm.invalid"
+          label="Sign in"
+        ></button>
+      </column>
+    </form>
+    <p-button [link]="true" routerLink="/register">Create account</p-button>
+  </column>
+</section>

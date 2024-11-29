@@ -1,0 +1,28 @@
+<p-toast></p-toast>
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <column>
+    <input
+      pInputText
+      type="text"
+      placeholder="Name"
+      formControlName="name"
+    />
+    <input
+      pInputText
+      type="email"
+      placeholder="Email"
+      formControlName="email"
+    />
+    <textarea
+      pInputTextarea
+      placeholder="Message"
+      formControlName="message"
+    ></textarea>
+    <button
+      pButton
+      type="submit"
+      [disabled]="contactForm.invalid"
+      label="Send"
+    ></button>
+  </column>
+</form>

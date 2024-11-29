@@ -1,0 +1,18 @@
+<section>
+  <p-fieldset
+    [style]="{ 'margin-bottom': '1rem' }"
+    [toggleable]="true"
+    legend="{{ product.name | capitalize }}"
+  >
+    <h3>Ingredients:</h3>
+    <div>
+      <div *ngFor="let chemical of product.chemicals" class="chemical-detail">
+        <app-chemical [chemical]="chemical"></app-chemical>
+        <p>{{ chemical.description }}</p>
+      </div>
+    </div>
+
+    <button pButton label="Back to Products" icon='pi pi-arrow-left'
+            (click)="goBack()"></button>
+  </p-fieldset>
+</section>

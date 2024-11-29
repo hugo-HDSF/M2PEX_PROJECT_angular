@@ -1,0 +1,11 @@
+<p-button
+  size="small"
+  [rounded]="true"
+  [style]="{ margin: '0.25rem' }"
+  severity="{{ getSeverityStyle(chemical.severity, 'chip') }}"
+  label="{{ chemical.name }}"
+  (click)="chemicalClicked.emit(chemical)"
+  icon="pi pi-info-circle"
+  [appTooltip]="chemical.description"
+>
+</p-button>
