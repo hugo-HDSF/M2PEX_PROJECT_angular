@@ -18,12 +18,25 @@
     <div class="p-toolbar-group-end">
       <row>
         <p-dropdown
+          appendTo="body"
           [options]="severityOptions"
           formControlName="severity"
           placeholder="Select severity"
         ></p-dropdown>
+
+        <textarea rows="5" cols="30" pInputTextarea formControlName="description"></textarea>
+        <small
+          *ngIf="
+            chemicalForm.controls['description'].invalid &&
+            chemicalForm.controls['description'].touched
+          "
+          class="p-error"
+        >
+          Description is required.
+        </small>
       </row>
     </div>
+
 
     <p-footer>
       <row>

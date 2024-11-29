@@ -42,7 +42,7 @@ Run the following to start the project
 
 ### Local :
 ```shell
-json-server --watch db.json
+json-server --watch db/db.json
 ng serve
 ```
 

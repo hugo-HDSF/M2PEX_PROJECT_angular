@@ -26,6 +26,7 @@ export class AddChemicalComponent implements OnInit {
     this.chemicalForm = this.fb.group({
       name: ['', Validators.required],
       severity: ['', Validators.required],
+      description: ['', Validators.required],
     });
   }
 
