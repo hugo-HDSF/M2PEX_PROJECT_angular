@@ -42,7 +42,9 @@ Run the following to start the project
 
 ### Local :
 ```shell
-json-server --watch db.json
+nvm install
+nvm use
+json-server --watch db/db.json
 ng serve
 ```
 
