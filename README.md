@@ -50,3 +50,8 @@ ng serve
 
 > [!NOTE] 
 > Navigate to http://localhost:4200, and use credentials : `admin:admin`
+
+
+### Group Members:
+- Hugo Da Silva
+- Romain Capolunghi
